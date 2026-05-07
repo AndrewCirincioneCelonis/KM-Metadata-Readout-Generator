@@ -8,7 +8,6 @@ This notebook generates an Excel readout of Celonis Knowledge Model metadata. It
 
 - Connects to a Celonis team.
 - Loads a Studio space, package, and Knowledge Model.
-- Requests the resolved semantic layer content for the selected KM.
 - Extracts metadata from KM records and related components.
 - Extracts KM variables and view variables where applicable.
 - Writes the resulting metadata tables to an Excel workbook.
@@ -62,4 +61,3 @@ The workbook contains one or more sheets with Knowledge Model metadata, dependin
 
 - The notebook extracts the fields that appear most relevant for KM documentation, but not necessarily every available metadata field.
 - Large Knowledge Models may produce large Excel files.
-- Do not commit real API keys to source control.
